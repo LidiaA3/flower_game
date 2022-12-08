@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+    background-color: seashell;
+    color: #0c0c1e;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: wrap;
+    gap: 16px;
+}
+
+main {
+    flex: 1;
+}
+
+h1 {
+    color: darkolivegreen;
+    font-weight: bold;
+}
+
+label {
+    font-size: 16px;
+}
+
+input,
+button {
+    background-color: rgb(200, 220, 178);
+    border: 1px solid #0c0c1e;
+    color: #0c0c1e;
+    padding: 2px 8px;
+    width: 64px;
+    height: 36px;
+    font-size: 24px;
+    border-radius: 16px;
+    text-align: center;
+}
+
+button {
+    width: 260px;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: darkolivegreen;
+}
+
+button:focus {
+    background-color: rgb(105, 120, 89);
+}
+
+.myplant {
+    font-size: 64px;
+    background-color: rgb(66, 60, 32);
+    color: white;
+    margin: 20px;
+    height: calc(100% - 40px);
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
