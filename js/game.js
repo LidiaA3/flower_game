@@ -32,8 +32,7 @@ function createPlant () {
     plantPlace.innerHTML = loadPlant;
 
     if (tempValue < 20 || tempValue > 30) {
-        alert('not ' + tempValue)
-        document.getElementById('popDead').style.display = "visible";
+        document.getElementById('popDead').style.display = "flex";
     }
 }
 
