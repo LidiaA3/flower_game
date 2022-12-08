@@ -65,4 +65,37 @@ button:focus {
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
+}
+
+.popDead {
+    width: 350px;
+    height: 300px;
+    background-color: white;
+    color: #0c0c1e;
+    border: 1px solid darkolivegreen;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 40px;
+    position: absolute;
+    top: calc(50% - (300px/2));
+    left: calc(50% - (350px/2));
+    display: none;
+}
+
+.popDead h2 {
+    font-size: 32px;
+    color: darkolivegreen;
+    width: 100%;
+    margin: 4px 0;
+}
+
+.popDead button {
+    border: 1px solid #0c0c1e;
+    color: #0c0c1e;
+    width: 120px;
+    height: 30px;
 }

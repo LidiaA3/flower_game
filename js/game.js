@@ -30,4 +30,13 @@ function createPlant () {
     const loadPlant = plant(seedValue, waterValue, fertValue, tempValue);
 
     plantPlace.innerHTML = loadPlant;
+
+    if (tempValue < 20 || tempValue > 30) {
+        alert('not ' + tempValue)
+        document.getElementById('popDead').style.display = "visible";
+    }
+}
+
+function gotIt () {
+    document.getElementById('popDead').style.display = "none";
 }
